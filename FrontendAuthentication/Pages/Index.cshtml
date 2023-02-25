@@ -70,7 +70,6 @@
     // reCAPTCHA response.
     signInWithPhoneNumber(auth, phoneNumber, verifier)
         .then(function (confirmationResult) {
-            const otpCode = $("#otp").val();
 
             window.confirmationResult = confirmationResult;
            
